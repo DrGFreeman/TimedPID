@@ -1,6 +1,6 @@
 /*
 TimedPID.cpp
-Source: https://github.com/DrGFreeman/RasPiBot202.V2
+Source: https://github.com/DrGFreeman/TimedPID
 
 MIT License
 
