@@ -1,0 +1,11 @@
+#########################
+# TimedPID class
+
+TimedPID	KEYWORD1
+
+getCmd	KEYWORD2
+getCmdAutoStep	KEYWORD2
+getCmdStep	KEYWORD2
+reset	KEYWORD2
+setCmdRange	KEYWORD2
+setGains	KEYWORD2
