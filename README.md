@@ -1,2 +1,2 @@
-# PID
-A simple PID controller featuring different time step calculation methods
+# TimedPID
+A simple PID controller for the Arduino IDE featuring different time step calculation options.
