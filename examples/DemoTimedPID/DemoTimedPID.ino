@@ -108,7 +108,7 @@ void loop() {
   // Get the system command from the PID based on target speed and current speed
   force = pid.getCmd(targetSpeed, speed);
 
-  // Calculate mass acceleration using Newton's third law (f=ma -> a=f/m)
+  // Calculate mass acceleration using Newton's second law (F=ma -> a=F/m)
   accel = (force - fDrag) / mass;
   // Update mass speed based on acceleration and time step
   speed += accel * timeStep;
