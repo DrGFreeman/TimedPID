@@ -1,6 +1,8 @@
 # TimedPID
 A simple PID controller for the Arduino IDE featuring different time step calculation options.
 
+Version 0.1.0  
+[![Build Status](https://travis-ci.org/DrGFreeman/TimedPID.svg?branch=master)](https://travis-ci.org/DrGFreeman/TimedPID)  
 By Julien de la Bruère-Terreault (drgfreeman@tuta.io)
 
 ## Summary
@@ -40,4 +42,4 @@ Sets the PID controller gains. `Kp`, `Ki` and `Kd` are the proportional, integra
 
 ## Version history
 
-Not under version control at this time.
+* 0.1.0 (2017-04-22): Initial release for testing.
