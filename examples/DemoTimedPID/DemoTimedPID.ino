@@ -30,8 +30,8 @@ This example demonstrates how to use the TimedPID class to control the speed of
 a mass subject to inertial and drag forces by controlling the force applied to
 the mass. The controller reacts to changes in the desired speed.
 
-The getCmdStep() is used as the time step is calculated in the main loop and
-used to calculate the speed of the mass.
+The getCmdStep() is used in this case since the time step is calculated in the
+main loop and used to update the speed of the mass under acceleration.
 */
 
 #include <TimedPID.h>
