@@ -19,6 +19,5 @@ env:
 
 script:
 - set -eo pipefail;
-  for e in examples/*; do
-    platformio ci --board=$BOARD --lib=. $e/*;
+  platformio ci --board=$BOARD --lib=. example/DemoTimedPID.ino;
   done
